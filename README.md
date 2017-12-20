@@ -9,12 +9,13 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 1. Po zalogowaniu do Uniclouda klikamy u góry zielony przycisk <b>"Utwórz środowisko"</b>.
 2. W okienku które się pojawiło wybierami zakładkę <b>"Node.js"</b>, w polu <b>"Nazwa środowiska"</b> wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem <b>"Utwórz"</b>.
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
-4. Najeżdzamy myszką na "Nodejs 0.x-6.x" i wybieramy ikonę "Dodaj Projekt".
-5. W okienku które wyskoczyło wybieramy zakładkę "Git" i w polu URL wklejamy adres:
+4. Najeżdzamy myszką na <b>"Nodejs 0.x-6.x"</b> i wybieramy ikonę <b>"Dodaj Projekt"</b>.
+5. W okienku które wyskoczyło wybieramy zakładkę <b>"Git"</b> i w polu <b>URL</b> wklejamy adres:
 <tt>https://github.com/Policjant/socketsrv</tt>
 
 Następnie klikamy przycisk "Dodaj".
-6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subodomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
+
+6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subdomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
 
 ## Podpinanie Multiplexingu do prezentacji:
@@ -58,14 +59,14 @@ Reveal.initialize({
 ```
 
 3. Kolejnym krokiem jest przejście pod adres naszego serwera socket.io (jeśli instalowaliśmy go na unicloud to adresem jest wybrana przez nas subdomena w domenie *.unicloud.pl). 
-Pod adresem serwer znajdziemy generator tokenów. Klikamy na odnośnik "Generate Token" i kopiujemy do notatnika cały wygenerowany ciąg, który powinien wygląda podobnie do tego:
+Pod adresem serwer znajdziemy generator tokenów. Klikamy na odnośnik <b>"Generate Token"</b> i kopiujemy do notatnika cały wygenerowany ciąg, który powinien wygląda podobnie do tego:
 > {"secret":"640c71d732845b64","socketId":"67fd85f288acf43f"}
 
-4. Teraz bardzo ważny krok! We wklejonym wcześniej skrypcie inicjalizującym Reveals.js nadpisujemy tekst "ADRES_SERVERA" naszym serwerm socket.io (ten na unicloud!),
-natomiast tekst <i>"SOCKET_ID"</i> nadpisujemy wygenerowanym tokenem socketId czyli w moim przypadku "67fd85f288acf43f".
+4. Teraz bardzo ważny krok! We wklejonym wcześniej skrypcie inicjalizującym Reveal.js nadpisujemy tekst <b>"ADRES_SERVERA"</b> naszym serwerm socket.io (ten na unicloud!),
+natomiast tekst <b>"SOCKET_ID"</b> nadpisujemy wygenerowanym tokenem socketId czyli w moim przypadku "67fd85f288acf43f".
 
 5. Teraz wystarczy wrzucić prezentację na dowolny serwer (nie musi posiadać node.js) i GOTOWE!
 
-7. DO administracji serwera wystarczy dopisać do adresu ?master=SECRET gdzie jako SECRET podstawiamy wygenerowany secret z tokena czyli w moim przypadku "640c71d732845b64".
+7. Do administracji serwera wystarczy dopisać do adresu <tt??master=SECRET</tt> gdzie jako SECRET podstawiamy wygenerowany secret z tokena czyli w moim przypadku "640c71d732845b64".
 
 8. **Końcowa uwaga: Dla każdej prezentacji należy wygenerować nowy token!**
