@@ -1,6 +1,9 @@
 # Reveal.js + Multiplexing
 
-Poniżej znajduje się uproszczona instrukcją instalacji serwer Socket.io niezbędnego do działania multiplexingu w prezentacjach Reveal.js
+Poniżej znajduje się uproszczona instrukcja instalacji serwera Socket.io niezbędnego do działania multiplexingu w prezentacjach Reveal.js
+Instrukcja dedykowana jest instalacji na serwerze node.js od Unicloud.pl ale będzie również działać na innych serwerach pozwalających na klonowanie projektów z githuba.
+Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy konsoli webowej. W dalszej cześci pokazane jest jak używać node.js w prezentacjach.
+
 
 
 ## Serwer Socket IO:
