@@ -57,14 +57,14 @@ Reveal.initialize({
 ```
 
 3. Kolejnym krokiem jest przejście pod adres naszego serwera socket.io (jeśli instalowaliśmy go na unicloud to adresem jest wybrana przez nas subdomena w domenie *.unicloud.pl). 
-Pod adresem serwer znajdziemy generator tokenów. Klikamy na odnośnik <b>"Generate Token"</b> i kopiujemy do notatnika cały wygenerowany ciąg, który powinien wygląda podobnie do tego:
+Pod adresem serwera znajdziemy generator tokenów. Klikamy na odnośnik <b>"Generate Token"</b> i kopiujemy do notatnika cały wygenerowany ciąg, który powinien wyglądać podobnie do tego:
 > {"secret":"640c71d732845b64","socketId":"67fd85f288acf43f"}
 
-4. Teraz bardzo ważny krok! We wklejonym wcześniej skrypcie inicjalizującym Reveal.js nadpisujemy tekst <b>"ADRES_SERVERA"</b> naszym serwerm socket.io (ten na unicloud!),
+4. Teraz bardzo ważny krok! We wklejonym wcześniej skrypcie inicjalizującym Reveal.js nadpisujemy tekst <b>"ADRES_SERVERA"</b> naszym serwerem socket.io (ten na unicloud!),
 natomiast tekst <b>"SOCKET_ID"</b> nadpisujemy wygenerowanym tokenem socketId czyli w moim przypadku "67fd85f288acf43f".
 
 5. Teraz wystarczy wrzucić prezentację na dowolny serwer (nie musi posiadać node.js) i GOTOWE!
 
-7. Aby administrować serwerem wystarczy dopisać do adresu prezentacji <tt>?master=SECRET</tt> gdzie jako SECRET podstawiamy wygenerowany wcześniej secret z tokena czyli w moim przypadku "640c71d732845b64".
+7. Aby administrować prezentacją wystarczy dopisać do adresu prezentacji <tt>?master=SECRET</tt> gdzie jako SECRET podstawiamy wygenerowany wcześniej secret z tokena czyli w moim przypadku "640c71d732845b64".
 
 8. **Końcowa uwaga: Dla każdej prezentacji należy wygenerować nowy token!**
