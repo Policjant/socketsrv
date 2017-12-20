@@ -11,8 +11,8 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
 4. Najeżdzamy myszką na "Nodejs 0.x-6.x" i wybieramy ikonę "Dodaj Projekt".
 5. W okienku które wyskoczyło wybieramy zakładkę "Git" i w polu URL wklejamy adres:
-https://github.com/Policjant/socketsrv
-Następnie klikami przycisk "Dodaj".
+> https://github.com/Policjant/socketsrv
+Następnie klikamy przycisk "Dodaj".
 6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subodomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
 
