@@ -18,18 +18,19 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 
 ![alt text](img/3.JPG "Krok 3")
 
+![alt text](img/4.JPG "Krok 4")
+
 4. Najeżdzamy myszką na <b>"Nodejs 0.x-6.x"</b> i wybieramy ikonę <b>"Dodaj Projekt"</b>.
 
-![alt text](img/4.JPG "Krok 4")
+![alt text](img/5.JPG "Krok 5")
 
 5. W okienku które wyskoczyło wybieramy zakładkę <b>"Git"</b> i w polu <b>URL</b> wklejamy poniższy adres (oczywiście można również podać inny przygotowany serwer socket.io na githubie), następnie potwierdzamy klikając <b>"Dalej"</b>:
 > https://github.com/Policjant/socketsrv
 
-![alt text](img/5.JPG "Krok 5")
+![alt text](img/6.JPG "Krok 6")
 
 6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subdomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
-![alt text](img/6.JPG "Krok 6")
 
 
 ## Podpinanie Multiplexingu do prezentacji:
