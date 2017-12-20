@@ -67,6 +67,6 @@ natomiast tekst <b>"SOCKET_ID"</b> nadpisujemy wygenerowanym tokenem socketId cz
 
 5. Teraz wystarczy wrzucić prezentację na dowolny serwer (nie musi posiadać node.js) i GOTOWE!
 
-7. Do administracji serwera wystarczy dopisać do adresu <tt??master=SECRET</tt> gdzie jako SECRET podstawiamy wygenerowany secret z tokena czyli w moim przypadku "640c71d732845b64".
+7. Do administracji serwera wystarczy dopisać do adresu <tt>?master=SECRET</tt> gdzie jako SECRET podstawiamy wygenerowany secret z tokena czyli w moim przypadku "640c71d732845b64".
 
 8. **Końcowa uwaga: Dla każdej prezentacji należy wygenerować nowy token!**
