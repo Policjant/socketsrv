@@ -9,10 +9,15 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 1. Po zalogowaniu do Uniclouda klikamy u góry zielony przycisk <b>"Utwórz środowisko"</b>.
 ![alt text](img/1.JPG "Krok 1")
 2. W okienku które się pojawiło wybieramy zakładkę <b>"Node.js"</b>, w polu <b>"Nazwa środowiska"</b> wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem <b>"Utwórz"</b>.
+![alt text](img/2.JPG "Krok 2")
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
+![alt text](img/3.JPG "Krok 3")
 4. Najeżdzamy myszką na <b>"Nodejs 0.x-6.x"</b> i wybieramy ikonę <b>"Dodaj Projekt"</b>.
+![alt text](img/4.JPG "Krok 4")
 5. W okienku które wyskoczyło wybieramy zakładkę <b>"Git"</b> i w polu <b>URL</b> wklejamy poniższy adres (oczywiście można również podać inny przygotowany serwer socket.io na githubie), następnie potwierdzamy klikając <b>"Dalej"</b>:
 > https://github.com/Policjant/socketsrv
+
+![alt text](img/5.JPG "Krok 5")
 
 6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subdomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
