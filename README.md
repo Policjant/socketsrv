@@ -18,7 +18,7 @@ Następnie klikamy przycisk "Dodaj".
 
 ## Podpinanie Multiplexingu do prezentacji:
 1. Otwieramy w edytorze plik .html z naszą prezentacją lub z przykładową pobraną ze strony autora: https://github.com/hakimel/reveal.js/archive/master.zip
-2. Domyślną inicjalizację skryptu Reveal.js znajdującą się przed tagiem <tt></body></tt>:
+2. Domyślną inicjalizację skryptu Reveal.js znajdującą się przed tagiem <tt>&lt;/body&gt;</tt>:
 ```javascript
 		<script>
 			// More info about config & dependencies:
