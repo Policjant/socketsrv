@@ -31,7 +31,7 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 
 6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subdomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
-
+![alt text](img/7.JPG "Krok 7")
 
 ## Podpinanie Multiplexingu do prezentacji:
 1. Otwieramy w edytorze plik .html z naszą prezentacją lub z przykładową pobraną ze strony autora: https://github.com/hakimel/reveal.js/archive/master.zip
