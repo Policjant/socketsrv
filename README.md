@@ -1,4 +1,9 @@
-##Serwer Socket IO:
+# Reveal.js + Multiplexing
+
+Poniżej znajduje się uproszczona instrukcją instalacji serwer Socket.io niezbędnego do działania multiplexingu w prezentacjach Reveal.js
+
+
+## Serwer Socket IO:
 1. Po zalogowaniu do Uniclouda klikamy u góry zielony przycisk "Utwórz środowisko".
 2. W okienku które się pojawiło wybierami zakładkę "Nodej.js", w polu "Nazwa środowiska" wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem "Utwórz".
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
@@ -9,7 +14,7 @@ Następnie klikami przycisk "Dodaj".
 6. I gotowe - serwer socket.io zainstalowany. Przechodząc pod subodomenę *.unicloud.pl jaką wybraliśmy dla naszego projektu możemy generować tokeny dla prezentacji.
 
 
-##Podpinanie Multiplexingu do prezentacji:
+## Podpinanie Multiplexingu do prezentacji:
 1. Otwieramy w edytorze plik .html z naszą prezentacją lub z przykładową pobraną ze strony autora: https://github.com/hakimel/reveal.js/archive/master.zip
 2. Domyślną inicjalizację skryptu Reveal.js znajdującą się przed tagiem </body>:
 ```javascript
