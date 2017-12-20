@@ -5,7 +5,6 @@ Instrukcja dedykowana jest instalacji na serwerze node.js od Unicloud.pl ale bę
 Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy konsoli webowej. W dalszej cześci pokazane jest jak używać node.js w prezentacjach.
 
 
-
 ## Serwer Socket IO:
 1. Po zalogowaniu do Uniclouda klikamy u góry zielony przycisk "Utwórz środowisko".
 2. W okienku które się pojawiło wybierami zakładkę "Nodej.js", w polu "Nazwa środowiska" wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem "Utwórz".
