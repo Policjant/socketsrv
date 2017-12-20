@@ -7,7 +7,7 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 
 ## Serwer Socket IO:
 1. Po zalogowaniu do Uniclouda klikamy u góry zielony przycisk <b>"Utwórz środowisko"</b>.
-2. W okienku które się pojawiło wybierami zakładkę <b>"Node.js"</b>, w polu <b>"Nazwa środowiska"</b> wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem <b>"Utwórz"</b>.
+2. W okienku które się pojawiło wybieramy zakładkę <b>"Node.js"</b>, w polu <b>"Nazwa środowiska"</b> wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem <b>"Utwórz"</b>.
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
 4. Najeżdzamy myszką na <b>"Nodejs 0.x-6.x"</b> i wybieramy ikonę <b>"Dodaj Projekt"</b>.
 5. W okienku które wyskoczyło wybieramy zakładkę <b>"Git"</b> i w polu <b>URL</b> wklejamy poniższy adres, następnie potwierdzamy klikając <b>"Dalej"</b>:
