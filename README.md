@@ -12,7 +12,7 @@ Całość jest maksymalnie uproszczona, nie potrzebny jest dostęp do ssh czy ko
 
 2. W okienku które się pojawiło wybieramy zakładkę <b>"Node.js"</b>, w polu <b>"Nazwa środowiska"</b> wpisujemy naszą unikalną subdomenę oraz zatwierdzamy przyciskiem <b>"Utwórz"</b>.
 
-![alt text](img/2.JPG "Krok 2"
+![alt text](img/2.JPG "Krok 2")
 
 3. Czekamy do 15 minut aż środowisko zostanie utworzone. Status zmieni się wtedy na uruchomione, a po prawej stronie wyskoczy komunikat że środowisko jest utworzone.
 
